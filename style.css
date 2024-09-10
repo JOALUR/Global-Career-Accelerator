@@ -1,0 +1,46 @@
+body {
+  color: #28897f;
+  background-color: #fcfcfc;
+  font-family: "Arial", sans-serif;
+
+  header {
+    color: #f7567c;
+    font-family: "Dancing Script", cursive;
+    font-size: 36px;
+  }
+}
+
+hr {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #28897f;
+  color: #28897f;
+  text-align: center;
+}
+hr:after {
+  content: "❀";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: #fcfcfc;
+}
+
+h2 {
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 3px;
+}
+
+#donation {
+  font-color: #f7567c;
+}
+
+h5 {
+  text-decoration: line-through;
+}
+
+address {
+  font-weight: bold;
+}
